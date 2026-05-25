@@ -1,1 +1,15 @@
+#Secrets
 .env
+
+# Virtual environment
+.venv/
+
+# Airflow logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local DB
+airflow.db
