@@ -8,8 +8,9 @@ Production-Ready Stack: Built on Docker Compose with Celery Executor, utilizing 
 
 Modular DAG Design: Features an orchestrated workflow structure, including a master/parent DAG pattern to trigger interdependent data pipelines cleanly.
 
-# 📂 Project Structure
-Plaintext
+## 📂 Project Structure
+
+```text
 ├── .github/               # CI/CD workflows (if applicable)
 ├── airflow/
 │   ├── dags/             # Airflow Directed Acyclic Graphs (DAGs)
