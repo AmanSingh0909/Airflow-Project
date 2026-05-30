@@ -20,6 +20,5 @@ def parent_dag():
 
     trigger_first_dag >> trigger_second_dag
 
-
 # instantiating the DAG
 parent_dag()
