@@ -9,7 +9,7 @@ def first_dag():
 
     @task.python
     def secound_task():
-        print("This is the secound task")
+        print("This is the secound task for tranformation")
 
     @task.python
     def third_task():
