@@ -13,7 +13,7 @@ def first_dag():
 
     @task.python
     def third_task():
-        print("This is the third task. Dag is complete")
+        print("This is the third task. Dag is complete and loaded data to the database")
 
 
     # Defining task dependencies
