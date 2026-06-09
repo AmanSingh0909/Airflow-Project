@@ -5,7 +5,7 @@ def first_dag():
 
     @task.python
     def first_task():
-        print("This is the first task")
+        print("This is the first task of ETL process. Extracting data from source")
 
     @task.python
     def secound_task():
