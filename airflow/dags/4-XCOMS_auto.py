@@ -12,7 +12,7 @@ def xcoms_dags_auto():
     @task.python
     def secound_task(data: dict):
         fetched_data = data['data']
-        transformed_data = fetched_data * 2
+        transformed_data = [x * 2 for x in fetched_data]
         transformed_data_dict = {"transf_data": transformed_data}
         return transformed_data_dict
 
