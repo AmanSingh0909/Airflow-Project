@@ -20,7 +20,6 @@ def incremental_load_dag():
     @task.bash
     def inceremental_data_process():
         return "echo 'Processing incremental data from {{ data_interval_start }} to {{ data_interval_end }}'"
-    
 
 
     # Defining task dependencies
